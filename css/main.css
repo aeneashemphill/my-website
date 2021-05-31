@@ -1,0 +1,231 @@
+/**** STYLES ****/
+
+body {
+    font-family: 'B612', sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 1440px;
+    margin: auto;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Roboto', sans-serif; 
+    color:white;
+    font-style: bold; 
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 22px;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'B612', sans-serif; 
+    line-height: 30px;
+}
+
+a {
+    color:orange;
+}
+
+img {
+    
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*** NAV ***/
+
+nav {
+    text-align: right;
+    padding-top: 25px;
+    padding: ;
+    padding-right: ;
+}
+
+nav ul {
+    word-spacing: 35px;
+}
+
+nav li {
+    text-transform: uppercase;
+    display: inline;
+}
+
+
+/*** HEADER ***/
+
+header {
+    width: 1100px;
+    margin: auto;
+    padding: ;
+}
+
+header h1 {
+    color:skyblue;
+    font-size: 44px;
+    text-align: left;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+header img {
+    border: none;
+    padding: ;
+}
+
+.header-container {
+    height: ;
+    overflow: auto;
+}
+
+.header-title {
+    width: 480px;
+    float: left;
+    text-align: left;
+    padding: ;
+    padding-left: ;
+}
+
+.header-nav {
+    width: 480px;
+    float: right;
+    padding: ;
+}
+
+
+/*** ABOUT ***/
+
+.about {
+    background-color:steelblue;
+    color: white;
+    overflow: auto;
+    padding: 25px;
+    margin: 100px auto;
+    clear: both;
+    width: 1000px;
+}
+
+.about h1 {
+    font-size: 32px;
+}
+
+.about-img {
+    float: left; 
+    width: 400px;
+    overflow: auto;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.about-text {
+    float: left;
+    font-size: 14px; 
+    width: 400px;
+    overflow: auto;
+    text-align: left;
+    padding-left: 125px;
+    padding-right: ;
+    padding-bottom: 25px;
+}
+
+
+/*** WORK ***/
+
+.work {
+    overflow: auto;
+    padding: 25px;
+    margin: 100px auto;
+    background-color:peru;
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+.work img {
+    border: none;
+}
+
+.work h2 {
+    color: white;
+    font-size: 16px;
+}
+
+.work p {
+    font-size: 14px;
+}
+
+.work h1 {
+    font-size: 32px;
+}
+
+
+/*** CONTACT ***/
+
+.contact {
+    background-color:seagreen;
+    overflow: auto;
+    padding: 25px;
+    padding-bottom: 50px;
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.contact-img {
+    float: left; 
+    width: 500px;
+    padding-top: 50px;
+}
+
+.contact-text {
+    float: left; 
+    width: 400px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.contact h1 {
+    font-size: 32px;
+}
+
+
+/*** CONTAINERS ***/
+
+.full-width {
+    overflow: auto;
+    padding: 100px;
+}
+
+.half-width {
+    float: left; 
+    width: 500px;
+}
+
+.third-width {
+    float: left;
+    width: 33.33%
+}
+
+
+/*** FOOTER ***/
+
+footer p {
+    font-size: 12px;
+}
+
