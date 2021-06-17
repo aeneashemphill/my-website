@@ -155,6 +155,10 @@ header a:hover {
     width: 30%;
 }
 
+.work-sample img {
+    width: 50%;
+}
+
 /* Contact */
 
 .contact {
@@ -172,8 +176,12 @@ header a:hover {
     width: 50%;
 }
 
+.contact-text ul li {
+    display: inline-block;
+}
+
 .contact img {
-    width: 80%;
+    width: 60%;
 }
 
 /* Responsive Styles */
