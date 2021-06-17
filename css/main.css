@@ -1,231 +1,184 @@
-/**** STYLES ****/
-
-body {
-    font-family: 'B612', sans-serif;
-    background-color: black;
-    text-align: center;
-    color: white;
-    width: 1440px;
-    margin: auto;
-}
-
-h1, 
-h2, 
-h3 {
-    font-family: 'Roboto', sans-serif; 
-    color:white;
-    font-style: bold; 
-}
-
-h1 {
-    font-size: 32px;
-}
-
-h2 {
-    font-size: 22px;
-
-}
-
-h3 {
-    font-size: 20px;
-}
-
-p {
-    font-family: 'B612', sans-serif; 
-    line-height: 30px;
-}
-
-a {
-    color:orange;
-}
-
-img {
-    
-}
-
-ul {
-    list-style: none;
-}
-
-
-/*** NAV ***/
-
-nav {
-    text-align: right;
-    padding-top: 25px;
-    padding: ;
-    padding-right: ;
-}
-
-nav ul {
-    word-spacing: 35px;
-}
-
-nav li {
-    text-transform: uppercase;
-    display: inline;
-}
-
-
-/*** HEADER ***/
-
-header {
-    width: 1100px;
-    margin: auto;
-    padding: ;
-}
-
-header h1 {
-    color:skyblue;
-    font-size: 44px;
-    text-align: left;
-}
-
-header h2 {
-    text-align: center;
-    font-size: 28px;
-}
-
-header img {
-    border: none;
-    padding: ;
-}
-
-.header-container {
-    height: ;
-    overflow: auto;
-}
-
-.header-title {
-    width: 480px;
-    float: left;
-    text-align: left;
-    padding: ;
-    padding-left: ;
-}
-
-.header-nav {
-    width: 480px;
-    float: right;
-    padding: ;
-}
-
-
-/*** ABOUT ***/
-
-.about {
-    background-color:steelblue;
-    color: white;
-    overflow: auto;
-    padding: 25px;
-    margin: 100px auto;
-    clear: both;
-    width: 1000px;
-}
-
-.about h1 {
-    font-size: 32px;
-}
-
-.about-img {
-    float: left; 
-    width: 400px;
-    overflow: auto;
-    padding-top: 25px;
-    padding-left: 25px;
-}
-
-.about-text {
-    float: left;
-    font-size: 14px; 
-    width: 400px;
-    overflow: auto;
-    text-align: left;
-    padding-left: 125px;
-    padding-right: ;
-    padding-bottom: 25px;
-}
-
-
-/*** WORK ***/
-
-.work {
-    overflow: auto;
-    padding: 25px;
-    margin: 100px auto;
-    background-color:peru;
-    width: 1000px;
-    padding-bottom: 50px;
-}
-
-.work img {
-    border: none;
-}
-
-.work h2 {
-    color: white;
+html {
     font-size: 16px;
 }
 
-.work p {
-    font-size: 14px;
+/**** Base Styles ****/
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.work h1 {
-    font-size: 32px;
+h1 {
+    font-size: 2em;
 }
 
+h2 {
+    font-size: 1.5em;
+}
 
-/*** CONTACT ***/
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1em;
+}
+
+ul li {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:sandybrown;
+  }
+
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    width: 50%;
+    margin: auto;
+}
+
+.header-nav {
+    width: 50%;
+    word-spacing: 15px;
+    margin: auto;
+}
+
+.header ul {
+    
+}
+
+.header li {
+
+}
+
+header h1 {
+    color: skyblue;
+    font-size: 2em;
+}
+
+header h3 {
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Image */ 
+
+.banner {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner img {
+    width: 80%;
+}
+
+/* About */
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.about-text {
+
+}
+
+.about p {
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Work */
+
+.work {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.work-sample {
+    margin: auto;
+    width: 30%;
+}
+
+/* Contact */
 
 .contact {
-    background-color:seagreen;
-    overflow: auto;
-    padding: 25px;
-    padding-bottom: 50px;
-    margin: 100px auto;
-    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .contact-img {
-    float: left; 
-    width: 500px;
-    padding-top: 50px;
+    width: 50%;
 }
 
 .contact-text {
-    float: left; 
-    width: 400px;
-    text-align: left;
-    padding-left: 100px;
+    width: 50%;
 }
 
-.contact h1 {
-    font-size: 32px;
+.contact img {
+    width: 80%;
 }
 
+/* Responsive Styles */
 
-/*** CONTAINERS ***/
+/* Tablet */
 
-.full-width {
-    overflow: auto;
-    padding: 100px;
-}
-
-.half-width {
-    float: left; 
-    width: 500px;
-}
-
-.third-width {
-    float: left;
-    width: 33.33%
-}
-
-
-/*** FOOTER ***/
-
-footer p {
-    font-size: 12px;
-}
+/* Desktop */
 
